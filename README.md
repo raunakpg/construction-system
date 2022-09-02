@@ -9,21 +9,21 @@ pip install -r requirements.txt
 
 Migrate, create a superuser, and run the server:
 
-
-
 python manage.py makemigrations
 
 python manage.py migrate
 
 python manage.py createsuperuser
 
-python manage.py runserverPostgreSQL Setup
+python manage.py runserver
+
+PostgreSQL Setup : 
 
     Download postgresql setup form https://www.postgresql.org/download/
     Download pgadmin setup from https://www.pgadmin.org/download/
     Start pgadmin and make a new database.
 
-Security settings for Postgresql
+Security settings for Postgresql : 
 
 Open the DjangoProject/settings.py file and change USER and PASSWORD here:
 
