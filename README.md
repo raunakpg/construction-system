@@ -1,6 +1,6 @@
 Install dependencies:
 
-Install  Django 3.0.7 and pip first
+Install  Django 3.1 and pip first
 
 (while in the activated virtual environment)
 
